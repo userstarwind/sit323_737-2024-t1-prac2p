@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script src="index.js" defer></script>
+    <h1>Simple Calculator</h1>
+    <form action="/" method="post">
+        <p>Please enter first number:</p>
+        <input name="num1">
+        <p>Please enter second number:</p>
+        <input name="num2">
+        <br>
+        <p>Choose th operator:</p>
+        <select name="operator">
+            <option value="addition">+</option>
+            <option value="subtraction">-</option>
+            <option value="multiplication">*</option>
+            <option value="division">/</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" name="calculate" id="calculateButton">Calculate</button>
+        <br>
+        <p>Answer:<span id="result">-</span></p>
+    </form>
+</body>
+
+</html>
